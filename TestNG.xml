@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Stitch SFC App" >
+    <!-- <listeners>
+        <listener class-name="org.demoApp.android.listeners.TestListener"/>
+        <listener class-name="org.demoApp.android.listeners.AnnotationTransformer"/>
+    </listeners> -->
+    
+   <test  verbose="1"  name="Maintenance">
+   <classes>
+   <class name="com.SfcApp.testcase.AppLogin"/>
+   <class name="com.SfcApp.testcase.ScheduleMaintenance"/>
+   </classes>
+   </test>
+    </suite>
+    
+    
+    

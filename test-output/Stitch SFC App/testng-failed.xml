@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stitch SFC App]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Maintenance(failed)">
+    <classes>
+      <class name="com.SfcApp.testcase.ScheduleMaintenance">
+        <methods>
+          <include name="setupapp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.SfcApp.testcase.ScheduleMaintenance -->
+    </classes>
+  </test> <!-- Maintenance(failed) -->
+</suite> <!-- Failed suite [Stitch SFC App] -->

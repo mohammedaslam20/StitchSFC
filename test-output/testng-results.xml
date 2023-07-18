@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T02:52:00 IST" name="Default suite" finished-at="2023-07-16T02:53:16 IST" duration-ms="75648">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T02:52:00 IST" name="Default test" finished-at="2023-07-16T02:53:16 IST" duration-ms="75648">
+      <class name="com.SfcApp.testcase.MyLine">
+        <test-method is-config="true" signature="setupapp()[pri:0, instance:com.SfcApp.testcase.MyLine@d737b89]" started-at="2023-07-16T02:52:00 IST" name="setupapp" finished-at="2023-07-16T02:52:18 IST" duration-ms="17729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupapp -->
+        <test-method signature="login()[pri:1, instance:com.SfcApp.testcase.MyLine@d737b89]" started-at="2023-07-16T02:52:18 IST" name="login" finished-at="2023-07-16T02:53:16 IST" duration-ms="57804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.SfcApp.testcase.MyLine -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
