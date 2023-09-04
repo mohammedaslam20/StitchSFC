@@ -6,7 +6,13 @@
       <class name="com.SfcApp.testcase.MyLine">
         <methods>
           <include name="setupapp"/>
-          <include name="login"/>
+          <include name="RecorderVerifyMachineRepaired"/>
+          <include name="RepairMachine"/>
+          <include name="Myline"/>
+          <include name="ChangeMachineOrientation"/>
+          <include name="LoginMachenic"/>
+          <include name="ReportError"/>
+          <include name="RecorderVerifyMachineReported"/>
         </methods>
       </class> <!-- com.SfcApp.testcase.MyLine -->
     </classes>
