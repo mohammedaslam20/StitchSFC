@@ -40,5 +40,5 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-#src/SFC_D_v*.apk
+src/SFC_D_v*.apk
 
