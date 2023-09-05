@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-16T02:52:00 IST" name="Default suite" finished-at="2023-07-16T02:53:16 IST" duration-ms="75648">
+  <suite started-at="2023-08-29T13:36:26 IST" name="SFC-Automation" finished-at="2023-08-29T13:42:51 IST" duration-ms="384361">
     <groups>
     </groups>
-    <test started-at="2023-07-16T02:52:00 IST" name="Default test" finished-at="2023-07-16T02:53:16 IST" duration-ms="75648">
-      <class name="com.SfcApp.testcase.MyLine">
-        <test-method is-config="true" signature="setupapp()[pri:0, instance:com.SfcApp.testcase.MyLine@d737b89]" started-at="2023-07-16T02:52:00 IST" name="setupapp" finished-at="2023-07-16T02:52:18 IST" duration-ms="17729" status="PASS">
+    <test started-at="2023-08-29T13:36:26 IST" name="SFCAPP" finished-at="2023-08-29T13:42:51 IST" duration-ms="384361">
+      <class name="com.SfcApp.testcase.Maintenance">
+        <test-method is-config="true" signature="setupapp()[pri:0, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:36:26 IST" name="setupapp" finished-at="2023-08-29T13:36:33 IST" duration-ms="6627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupapp -->
-        <test-method signature="login()[pri:1, instance:com.SfcApp.testcase.MyLine@d737b89]" started-at="2023-07-16T02:52:18 IST" name="login" finished-at="2023-07-16T02:53:16 IST" duration-ms="57804" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:36:33 IST" name="login" finished-at="2023-08-29T13:37:00 IST" duration-ms="26635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- com.SfcApp.testcase.MyLine -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method signature="OnDemandReportError()[pri:2, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:37:00 IST" name="OnDemandReportError" finished-at="2023-08-29T13:38:04 IST" duration-ms="64084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnDemandReportError -->
+        <test-method signature="LogoutSupervisor()[pri:3, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:38:04 IST" name="LogoutSupervisor" finished-at="2023-08-29T13:38:08 IST" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutSupervisor -->
+        <test-method signature="LoginMechanic()[pri:4, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:38:08 IST" name="LoginMechanic" finished-at="2023-08-29T13:38:26 IST" duration-ms="17644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMechanic -->
+        <test-method signature="DisposeMachine()[pri:5, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:38:26 IST" name="DisposeMachine" finished-at="2023-08-29T13:39:26 IST" duration-ms="60217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisposeMachine -->
+        <test-method signature="WebVerifiedMachineDispose()[pri:6, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:39:26 IST" name="WebVerifiedMachineDispose" finished-at="2023-08-29T13:39:50 IST" duration-ms="23863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebVerifiedMachineDispose -->
+        <test-method signature="LogoutMechanic()[pri:7, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:39:50 IST" name="LogoutMechanic" finished-at="2023-08-29T13:39:56 IST" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutMechanic -->
+        <test-method signature="LoginAgainSupervisor()[pri:8, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:39:56 IST" name="LoginAgainSupervisor" finished-at="2023-08-29T13:40:10 IST" duration-ms="13640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAgainSupervisor -->
+        <test-method signature="ReportError()[pri:9, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:40:10 IST" name="ReportError" finished-at="2023-08-29T13:41:10 IST" duration-ms="60397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportError -->
+        <test-method signature="AgainLogoutSupervisor()[pri:10, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:41:10 IST" name="AgainLogoutSupervisor" finished-at="2023-08-29T13:41:14 IST" duration-ms="3908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgainLogoutSupervisor -->
+        <test-method signature="AgainLoginMechanic()[pri:11, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:41:14 IST" name="AgainLoginMechanic" finished-at="2023-08-29T13:41:33 IST" duration-ms="19484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgainLoginMechanic -->
+        <test-method signature="ReplaceMachine()[pri:12, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:41:33 IST" name="ReplaceMachine" finished-at="2023-08-29T13:42:30 IST" duration-ms="56661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReplaceMachine -->
+        <test-method signature="WebVerifiedMachineReplace()[pri:13, instance:com.SfcApp.testcase.Maintenance@68c9133c]" started-at="2023-08-29T13:42:30 IST" name="WebVerifiedMachineReplace" finished-at="2023-08-29T13:42:51 IST" duration-ms="20578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebVerifiedMachineReplace -->
+      </class> <!-- com.SfcApp.testcase.Maintenance -->
+    </test> <!-- SFCAPP -->
+  </suite> <!-- SFC-Automation -->
 </testng-results>
